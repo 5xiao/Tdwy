@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改个人信息</title>
+</head>
+<body>
+<h1>修改个人信息</h1>
+<form method="post">
+    <table align="center" width="800" cellspacing="0" cellpadding="3" border="1">
+        <tr>
+            <td>姓名:
+            </td>
+            <td><input type="text" value="mary"></td>
+        </tr>
+        <tr>
+            <td>性别:</td>
+            <td><input type="radio" name="rdoGender" value="1" checked id="male">
+                <label for="male">女</label>
+                <input type="radio" name="rdoGender" value="2" id="man">
+                <label for="man">男</label></td>
+        </tr>
+        <tr>
+            <td>学历:</td>
+            <td><select name="degree">
+                <option value="1">大专</option>
+                <option value="2">本科</option>
+                <option value="3">研究生</option>
+                <option value="4">其他</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>意向工作城市:</td>
+            <td><select name="city" size="5" multiple>
+                <option value="1">北京</option>
+                <option value="2">上海</option>
+                <option value="3">广州</option>
+                <option value="4">深圳</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>个人描述:</td>
+            <td><textarea name="" id="" cols="40" rows="8">这个家伙很懒,什么也没有留下..</textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="chk" value="1">请不要公开我的信息</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="保存"> <input type="reset" value="重写"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
