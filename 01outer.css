@@ -1,0 +1,10 @@
+/*控制所有P标记为文本颜色为红色*/
+p{
+    color: red;
+}
+div{
+    color: brown;
+}
+h2{
+    color: green;background: gray;
+}
