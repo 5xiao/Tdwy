@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>类选择器</title>
+    <style>
+        a:link{
+            color: black;
+        }
+        a:visited{
+            color: red;
+            font-size: 50px;
+        }
+        a:hover{
+            color: #18ff84;
+            font-size:24px ;
+        }
+        a:active{
+            color: blue;
+        }
+        #txtname{
+            color: gray;
+            font-style: italic;
+        }
+        #txtname:active{
+            font-style: normal;
+        }
+        #txtname:focus{
+            color: #18ff84;
+        }
+        a.baidu{
+            color: chocolate;
+            font-size: 30px;
+            text-decoration: none;  /**取消文本下划线**/
+        }
+        a.baidu:hover{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<a href="http://www.csdn.net">
+    CSDN
+</a>
+<hr>
+<input type="text" id="txtname" value="请输入信息">
+<a href="www.baidu.com" class="baidu">百度一下</a>
+<div>白日依山尽</div>
+<p>黄河入海流</p>
+<div>欲穷千里目</div>
+<p>更上一层楼</p>
+</body>
+</html>
