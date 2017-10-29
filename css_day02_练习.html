@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box model</title>
+</head>
+<style>
+    #comment{
+        width: 90%;
+        min-height: 50px;
+        padding: 10px;
+        border: 1px solid #D0E4C2;
+        margin-bottom: 10px;
+    }
+    #pages a{
+        /*边框 倒角*/
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        /*内边距*/
+        padding: 3px 10px;
+
+    }
+    #pages a.current{
+        border: none;
+    }
+</style>
+<body>
+<div id="comment"></div>
+    <div id="pages">
+        <a class="current">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+    </div>
+</body>
+</html>
