@@ -38,14 +38,12 @@
         }
         #d2{
             border-top:1px solid #ddd;
-            height: 40px;
-
         }
         #pages a{
             border: 1px solid #ddd;
             border-radius: 5px;
             padding: 3px 10px;
-            color:white;
+            color:black;
         }
         #pages a:hover{
             background-color: #005aa0;
@@ -61,13 +59,52 @@
         #pages a.current{
             border: none;
             background-color: transparent;
+            color: black;
+        }
+        #comment button{
+            width: 82px;
+            height: 38px;
+            border: 1px solid #D5D5D3;
+            background-image: linear-gradient(to bottom ,#F9F9F9,#CCC);
+            border-radius: 5px;
+
+        }
+        #comment button:hover{
+            color: red;
+            cursor: pointer;
+        }
+        #d2 p{
+            color:black;
+            text-align: justify;
+
+        }
+        #d2 p b{
+            height: 21px;
+            padding: 5px 7px;
+            margin-right: 5px;
+            background-color: #fdeff2;
+            border: 1px solid red;
         }
     </style>
 </head>
 <body>
 <div id="comment">
     <div class="star star5"></div>
-    <div id="d2"></div>
+    <div id="d2">
+        <p>标&nbsp;&nbsp;&nbsp;&nbsp;签:
+            <b>比洗衣粉好</b>
+            <b>去污能力强</b>
+        </p>
+        <p>心&nbsp;&nbsp;&nbsp;&nbsp;得:
+        <span>买了几次了,挺好用的,洗的衣服很干净</span>
+        </p>
+        <p>购买日期:
+        <span>2017-10-31</span>
+        </p>
+    </div>
+    <button>有用(3)</button>
+    <button>回复(4)</button>
+    </p>
 </div>
 <div id="pages">
     <a href="#" class="current">1</a>
