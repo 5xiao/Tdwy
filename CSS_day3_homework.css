@@ -3,7 +3,7 @@ body{
 }
 #discuss{
     width: 990px;
-    margin: 0 auto;/*水平居中对齐*/
+    margin: 50px auto;/*水平居中对齐*/
 }
 #discuss div.mt{
     /*宽度,高度,背景,边框*/
@@ -57,3 +57,22 @@ i.shai{
 }i.lun{
     background-position: -152px -220px;
 }
+ .mt a{
+     color: #005aa0;
+     text-align: center;
+     width: 96px;
+     float: left;
+     border-right: 1px solid #E1E1E1;
+     border-left: 1px solid #E1E1E1;
+     height: 21px;
+     padding: 5px;
+     text-decoration: none;
+ }
+ .mt a:hover{
+     margin-top: -5px;
+     height: 23px;
+     border-top: 2px solid red;
+     background-color: #fff;
+     text-decoration: underline;
+     border-bottom: 1px solid #FFF;
+ }
