@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动元素为父元素高度带来的影响</title>
+    <style>
+        #d1{
+            border: 1px solid #000;
+        }
+        .c1,.c2,.c3{
+            width: 200px;
+            height: 200px;
+        }
+        .c1{
+            background: red;
+            float: left;
+        }
+        .c2{
+            background: green;
+        }
+        .c3{
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+<div id="d1">
+    <div class="c1"></div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+</div>
+</body>
+</html>

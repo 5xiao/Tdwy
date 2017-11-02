@@ -36,7 +36,7 @@ body{
     text-align: center;
     padding: 5px 0;
 }
-#discuss-datas a{
+ a{
     color: #005aa0;
     text-decoration: none;
 }
@@ -58,7 +58,6 @@ i.shai{
     background-position: -152px -220px;
 }
  .mt a{
-     color: #005aa0;
      text-align: center;
      width: 96px;
      float: left;
@@ -66,13 +65,14 @@ i.shai{
      border-left: 1px solid #E1E1E1;
      height: 21px;
      padding: 5px;
-     text-decoration: none;
  }
  .mt a:hover{
      margin-top: -5px;
      height: 23px;
      border-top: 2px solid red;
      background-color: #fff;
-     text-decoration: underline;
      border-bottom: 1px solid #FFF;
+ }
+  #extra div.total{
+     float: right;
  }
