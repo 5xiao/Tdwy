@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #container{
+            width: 800px;
+            height: 600px;
+            border: 1px solid #000;
+            /*变为弹性布局容器*/
+            display: flex;
+            /*更改主轴排列方式*/
+            /*flex-direction: row;*/
+            /*flex-direction: row-reverse;*/
+
+            /*纵轴排列方式*/
+            /*flex-direction: column;*/
+            /*纵轴排列方式*/
+            /*flex-direction: column-reverse;*/
+
+            /*更改换行的方式*/
+            /*flex-wrap: wrap-reverse;*/
+
+            /*两个值缩写*/
+            flex-flow: row wrap;
+            /*更改主轴的对齐方式*/
+            justify-content:space-between; /*重要*/
+        }
+        #container div{
+            width: 200px;
+            height: 200px;
+        }
+        .c1{
+            background: red;
+        }
+        #container .c2{
+            width: 300px;
+            background: yellow;
+        }
+        .c3{
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div class="c1">项目1</div>
+    <div class="c2">项目2</div>
+    <div class="c3">项目3</div>
+</div>
+</body>
+</html>
