@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东(JD.COM)</title>
+    <style>
+        *{box-sizing: border-box}
+        body{
+            font:12px "Microsoft Yahei";
+            margin: 0;
+            color: #666;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        img{vertical-align: middle}
+        #slider-box{
+            /*宽度,高度,margin*/
+            width: 670px;
+            height: 400px;
+            margin: 0 auto;
+        }
+        #slider li{
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            border-radius: 50%;
+            margin-right: 5px;
+            background-color: #3e3e3e;
+            color:#fff;
+          }
+        #slider{
+            position: relative;
+        }
+        #slider ul{
+            display: flex;
+            position: absolute;
+            right: 0px;
+            bottom:0px;
+        }
+        #ad{
+            display: flex;
+            width: 670px;
+            height: 160px;
+            border: 1px solid #ddd;
+            border-top:none;
+            align-items: center;
+            /*justify-content: space-between;*/
+        }
+        #ad>ul{
+            display: flex;
+            height: 139px;
+            flex-grow: 1;
+        }
+        #ad>ul li{
+            flex-grow: 1;
+            text-align: center;
+        }
+        #ad>a{
+            width: 25px;
+            height: 35px;
+            background: url("Images/index/ad-arraw.png")no-repeat;
+        }
+        #ad>a.next{
+            background-position: 0 -35px;
+        }
+    </style>
+</head>
+<body>
+    <div id="slider-box">
+        <!--上:滑动广告-->
+        <div id="slider">
+            <img src="Images/index/banner_02.jpg">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </div>
+        <!--下:三幅小广告-->
+        <div id="ad">
+            <a href="#" class="previous"></a>
+            <ul>
+                <li>
+                    <img src="Images/index/ad_01.jpg" alt="">
+                </li>
+                <li>
+                    <img src="Images/index/ad_02.jpg" alt="">
+                </li>
+                <li>
+                    <img src="Images/index/ad_03.jpg" alt="">
+                </li>
+            </ul>
+            <a href="#" class="next"></a>
+        </div>
+    </div>
+</body>
+</html>
