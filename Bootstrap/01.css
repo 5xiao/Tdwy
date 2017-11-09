@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.clear:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+#top{
+    background-color: #034c50;
+    border-radius: 5px;
+    padding: 15px 5px;
+}
+#top ul {
+    float: left;
+}
+#top li{
+    float: left;
+    color:#fff;
+    font-size: 1.3rem;
+}
+#top input{
+    float: right;
+}
+#main .left{
+    width: 25%;
+    background-color: #57085B;
+    padding: 10px 15px;
+    border-radius:5px;
+    float: left;
+}
+#main .left li{
+    background-color: #EEE;
+    margin: 5px 0;
+    padding: 5px;
+}
+#main .center{
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+}
+#main img{
+    max-width: 23%;
+}
+#main .right{
+    width: 25%;
+    background-color: #5B5708;
+    border-radius: 5px;
+    padding: 10px 5px;
+    float: right;
+}
+
+/*超小屏幕中显示的效果*/
+@media screen and (max-width:767px){
+    #top ul{
+        width: 100%;
+    }
+    #main .left{
+        width: 100%;
+    }
+    #main .center{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    #main .center img{
+        max-width: 40%;
+    }
+    #main .right{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
