@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--2 viewprot-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <!--3 x-ua-compatible-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>Title</title>
+    <!--4 引入两个兼容文件-->
+    <!--[if lt IE 9]-->
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <!--6 引入 bootstrap.css-->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <style>
+        .media-object{
+            width: 64px;
+            height: 64px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                    <!--<span class="sr-only">Toggle navigation</span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                </button>
+                <a class="navbar-brand" href="#">Tarena</a>
+            </div>
+            <!--导航链接-->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">主页</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">分类<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">主题</a></li>
+                            <li><a href="#">风格</a></li>
+                            <li><a href="#">个人</a></li>
+                            <li><a href="#">练习</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">联系我们</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">关于</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <div class="input-group">
+                        <input type="search"  class="form-control" placeholder="搜索" ><span class="glyphicon glyphicon-search input-group-addon"></span>
+                        </div>
+                        <button class="btn btn-success">登录</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--第二部分-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2" id="left">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">个人资料</div>
+                                <div class="panel-body">
+                                    <img src="images/1.jpg" class="img-circle img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="list-group">
+                                <li class="list-group-item">HTML5</li>
+                                <li class="list-group-item">CSS3</li>
+                                <li class="list-group-item">JavaScript</li>
+                                <li class="list-group-item">Bootstrap</li>
+                                <li class="list-group-item">Ajax</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10" id="right">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ol class="breadcrumb">
+                                <li><a href="#">主页</a></li>
+                                <li><a href="#">HTML5</a></li>
+                                <li class="active">表单2.0</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                           <h2>表单2.0的新特性</h2>
+                            <div class="alert alert-success">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad expedita, incidunt nesciunt qui quisquam rerum temporibus. Architecto harum ipsum nemo quos? Ab, assumenda cumque eaque ipsam magni nam officiis optio.
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, ratione repellendus. Accusamus alias aperiam deserunt exercitationem ipsum, iste obcaecati quasi quo rem repellat tempora ullam? Animi dolore minima rerum tempore!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, ratione repellendus. Accusamus alias aperiam deserunt exercitationem ipsum, iste obcaecati quasi quo rem repellat tempora ullam? Animi dolore minima rerum tempore!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, ratione repellendus. Accusamus alias aperiam deserunt exercitationem ipsum, iste obcaecati quasi quo rem repellat tempora ullam? Animi dolore minima rerum tempore!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, ratione repellendus. Accusamus alias aperiam deserunt exercitationem ipsum, iste obcaecati quasi quo rem repellat tempora ullam? Animi dolore minima rerum tempore!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, ratione repellendus. Accusamus alias aperiam deserunt exercitationem ipsum, iste obcaecati quasi quo rem repellat tempora ullam? Animi dolore minima rerum tempore!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, ratione repellendus. Accusamus alias aperiam deserunt exercitationem ipsum, iste obcaecati quasi quo rem repellat tempora ullam? Animi dolore minima rerum tempore!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="images/1.jpg" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Media heading</h4>
+                                        ...
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--5 引入jquery,bootstrap js-->
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
