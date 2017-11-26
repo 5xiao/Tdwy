@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var score = prompt();
+    function printScoreClass(score) {
+        if (score>=85 && score<=100){
+            console.log('A')
+        }
+        else if (score<85 && score>=75){
+            console.log('B')
+    }
+        else if (score<75 && score>=60){
+            console.log('C')
+    }
+        else if (score<60 && score>=0){
+            console.log('D')
+    }
+        else {
+            console.log('输入错误')
+        }
+    }
+
+    printScoreClass(score)
+    //85 90 -A  75-85 -B   60- 75 -C  0-59 -D
+</script>
+</body>
+</html>
