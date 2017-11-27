@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function zheng(ln) {
+        for (var r = 1; r <= ln; r++)
+        {
+            for (var i = 1,str=""; i<=r; i++){
+                str+="*";
+            }
+            console.log(str);
+        }
+    }
+    zheng(5);
+
+    function fan(ln) {
+        for (var r = 1; r <= ln; r++) {
+            for (var i = 1, str = ""; i <= ln; i++) {
+                str += i < (ln-r+1) ? " " : "*";
+            }
+            console.log(str);
+        }
+    }
+    fan(5);
+</script>
+</body>
+</html>
