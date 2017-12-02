@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr=[
+        [1,2,3],
+        [true,false],
+        ['a','b','c']
+        ];
+    console.log(arr[0][0]);
+    console.log(arr[2][0]);
+    console.log(arr[arr.length-1][[arr.length-1].length-1]);
+
+    for (var x=0;x<arr.length;x++){
+        for (var y=0;y<arr[x].length;y++){
+            document.write(arr[x][y]+'&nbsp;');
+        }
+        document.write('<br/>');
+    }
+
+</script>
+</body>
+</html>
