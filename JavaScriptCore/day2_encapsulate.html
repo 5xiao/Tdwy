@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //lilei:姓名:lilei
+    //年龄:11
+    //自我介绍:介绍自己
+    var lilei={
+        sname:"Li Lei",
+        sage:11,
+        intr:function () {
+            document.write("I'm "+this.sname+",I'm "+this.sage+"."+"<br>");
+        }
+    }
+    console.log(lilei.sage);
+    lilei.sage++;
+    console.log("过了一年:"+lilei.sage);
+    lilei.intr();
+    //遍历
+    for(var key in lilei){
+        console.log(key+":"+lilei[key]);
+    }
+</script>
+</body>
+</html>
