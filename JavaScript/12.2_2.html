@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var associativeArray = [];
+    associativeArray['s1'] = 'test';
+    associativeArray['s2'] = true;
+    associativeArray['s3'] = 123;
+
+    console.log(associativeArray.s3);
+
+    for (var i in associativeArray) {
+        console.log(i);
+    }
+    console.log('___for of k____');
+    for (var k of Object.keys(associativeArray)){
+        console.log(k);     // for of  ECMA6
+    }
+    console.log('___for of v____');
+    for (var v of Object.values(associativeArray)){
+        console.log(v);
+    }
+    console.log('___for of k and v____');
+    for (var [k,v] of Object.entries(associativeArray)){
+        console.log(k+'='+v);
+    }
+</script>
+</body>
+</html>

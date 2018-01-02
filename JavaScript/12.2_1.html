@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr1 = [];
+    var arr2 = [1, 2, 3];
+
+    var arr3 = new Array();
+    var arr4 = new Array('a', 'bc', 'def');
+
+    arr1[0] = 1;
+    arr3[1] = '1';
+
+    var arr5 = new Array(100);
+
+    console.log(arr4[2]);
+    console.log(arr5[99]);
+    arr5[100] = true;
+    console.log(arr5[100]);
+    console.log(arr5[arr5.length - 1]);
+
+    for (var i = 0; i < arr4.length; i++) {
+        console.log(arr4[i]);     //遍历数组
+    }
+    for (var j = arr4.length - 1; j >= 0; j--) {
+        console.log(arr4[j]);     //遍历数组
+    }
+
+    var arr7 = [];
+    arr7['a'] = 'Army';
+    arr7['b'] = 'Boom';
+    arr7['c'] = 'Cook';
+    for (var v in arr7) {
+        console.log(v + '=' + arr7[v]);
+    }
+
+</script>
+</body>
+</html>
